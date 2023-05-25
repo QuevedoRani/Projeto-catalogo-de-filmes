@@ -27,6 +27,20 @@ body {
     box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.5);
 }
 
+.container1 {
+    font-size: 16px;
+    width: 92vw;
+    max-width: 37.5em;
+    padding: 17em;
+    background-image: url("https://solardorosario.com.br/wp-content/uploads/2022/09/deuses_gregos.jpg");
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+    box-shadow: 3.6em 3em 6em rgba(0, 0, 0, 0.735);
+}
+
 .search-container {
     display: grid;
     grid-template-columns: 9fr 3fr;
@@ -151,4 +165,45 @@ p{
     .info{
         grid-template-columns: 1f;
     }
+}
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+.fields {
+    color: white;
+    border-radius: 3em;
+    border-style: solid;
+    border-color: #c85f1ea5;
+    width: 10em;
+    font-style: italic;
+    font-size: 1.4em;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(#461c00c2, #b1780778, #0465b47f);
+}
+
+.fields:focus{
+    color:white;
+}
+
+.container1 input::placeholder {
+    color: #ffffff98;
+}
+
+.container1 input:focus {
+    border: dotted rgba(232, 227, 227, 0.724);
+    width: 12em;
+    color: white;
+}
+
+.submit {
+    font-size: 0.9em;
+    width: 5em;
+    border-color: #c85f1ea5;
+    background: linear-gradient(#461c00, #b17807, #0465b4);
+    color: #ffffffaf;
+    border-radius: 3em 1.5em;
+    padding-bottom: 0.7px;
+    padding-left: 1px;
 }
